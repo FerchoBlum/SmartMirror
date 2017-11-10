@@ -1,0 +1,27 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/*Mobile first directamente*/
+body{
+	background-color: #F16FBE;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+	body{
+		background-color: #48E8CF;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	body{
+		background-color: #E898D1;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	body{
+		background-color: #E898D1;
+	}
+}
